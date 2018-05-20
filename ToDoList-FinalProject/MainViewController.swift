@@ -270,7 +270,6 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
             if ((indexPath?.row != nil)) {
                 taskTable.moveRow(at: Path.initialIndexPath! as IndexPath, to: indexPath!)
                 swap(&taskArray[indexPath!.row], &taskArray[indexPath!.row])
-                
                 Path.initialIndexPath = indexPath as NSIndexPath?
                 //updateDisplayOrder()
                 taskTable.reloadData()

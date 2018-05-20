@@ -25,7 +25,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelectionDuringEditing="YES" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Qbg-gC-1HP">
-                                <rect key="frame" x="0.0" y="131" width="375" height="539"/>
+                                <rect key="frame" x="0.0" y="155" width="375" height="515"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TaskCell" id="GYz-Lw-Tg7" customClass="TaskCellVC" customModule="ToDoList_FinalProject" customModuleProvider="target">
@@ -39,16 +39,16 @@
                                 </prototypes>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sQ9-E8-n9a">
-                                <rect key="frame" x="0.0" y="64" width="375" height="58.5"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="82.5"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter the to do item here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gCV-Gl-RYc">
-                                        <rect key="frame" x="35" y="18.5" width="305" height="30"/>
+                                        <rect key="frame" x="49" y="30.5" width="277" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pIP-mQ-NXx">
-                                        <rect key="frame" x="351" y="20" width="16" height="27.5"/>
+                                        <rect key="frame" x="337" y="20" width="30" height="51.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="pIP-mQ-NXx" secondAttribute="height" multiplier="18:31" id="3Uz-oc-7Uz"/>
                                         </constraints>
@@ -58,7 +58,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5T-cq-7ua">
-                                        <rect key="frame" x="4" y="20" width="27" height="28.5"/>
+                                        <rect key="frame" x="4" y="20" width="41" height="52.5"/>
                                         <state key="normal" image="addButton"/>
                                         <connections>
                                             <action selector="quickAddTapped:" destination="sdV-41-t22" eventType="touchUpInside" id="yoA-YV-sCg"/>
@@ -255,8 +255,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="addButton" width="16" height="16"/>
-        <image name="moreArrow" width="16" height="16"/>
+        <image name="addButton" width="41" height="43"/>
+        <image name="moreArrow" width="25" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Q0V-Kg-1GL"/>

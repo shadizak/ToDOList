@@ -111,8 +111,8 @@
 		F3C2ADE620B1B14100FBBCA8 /* ToDoList-FinalProject */ = {
 			isa = PBXGroup;
 			children = (
-				F3C2AE2020B1BBAA00FBBCA8 /* DetailsViewController.swift */,
 				F3C2ADE720B1B14100FBBCA8 /* AppDelegate.swift */,
+				F3C2AE2020B1BBAA00FBBCA8 /* DetailsViewController.swift */,
 				F3C2ADE920B1B14100FBBCA8 /* ViewController.swift */,
 				F3C2ADEB20B1B14100FBBCA8 /* Main.storyboard */,
 				F3C2ADF120B1B14100FBBCA8 /* Assets.xcassets */,
